@@ -20,8 +20,9 @@
 			<td>{{ $item->forma_pagamento }}</td>
 		</tr>
 		@endforeach
+	<p><center>{{ link_to_action('ProdutoController@getPedidos', 'Finalizar', $parameters = array(), $attributes = array('class'=>'btn btn-info')) }}</center></p>
 
-	</table>
+  </div>
 
 
 

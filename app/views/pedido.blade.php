@@ -23,7 +23,7 @@
 		@endforeach
 
 	</table>
-
+	<p><center>{{ link_to_action('GeneralController@index', 'Voltar', $parameters = array(), $attributes = array('class'=>'btn btn-info')) }}</center></p>
 
 
 @stop
